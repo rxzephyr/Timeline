@@ -1,0 +1,49 @@
+{
+  "name": "electron_react_test",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "homepage": ".",
+  "dependencies": {
+    "electron": "^3.0.12",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "history": "latest",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-dropzone": "^8.0.2",
+    "react-easy-swipe": "0.0.17",
+    "react-overflow-scrolling": "^0.2.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "latest",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-immutable": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
+    "superagent": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron-start": "electron ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
